@@ -2,9 +2,10 @@ body
 {
 	margin: 0;
 	padding: 0;
-	background: #ecf0f1;
+	background: #f5f6fa;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
+
 .nav
 {
 	color:#54a0ff;
@@ -21,8 +22,8 @@ body
 }
 .nav > li > a 
 {
-	font-size: 20px;
-	text-decoration: none;
+	font-size: 13px;
+	text-decoration: underline;
 	color: #54a0ff;
 }
 .nav > li > a:hover
@@ -36,7 +37,7 @@ body
 	transform: translate(-50%,-50%);
 	background: #2f3640;
 	height:30px;
-	border-radius: 30px;
+	border-radius: 10px;
 	padding: 5px;
 }
 
@@ -80,3 +81,66 @@ padding: 0 6px;
 	width: 0px;
 	font-weight: bold;
 }
+ .home-gallery h1
+ {
+ 	text-align: center;
+ 	line-height: 1.2;
+ 	margin-top: 2.6em;
+ 	margin-bottom: 2.6em;
+ 	font-weight: bold;
+ }
+
+.logo
+{
+	position: absolute;
+	top: 5%;
+	left: 48%;
+	color: #54a0ff;
+	font-size: 50px;
+}
+
+ul
+{
+	list-style: none;
+}
+
+.icons a
+{
+	position: fixed;
+	display: block;
+	width: 0px;
+	text-decoration: none;
+	
+}
+
+.icons li img
+{
+	position: fixed;
+	top: 40%;
+
+	background: #2f3640;
+	height: 300px;
+	width: 350px;
+	border-radius: 30px;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+.icons span
+{
+	display: none;
+}
+
+.icons:hover span
+{
+	background: #273c75;
+	display: block;
+	width: 320px;
+	padding: 10px 10px;
+	border: 10px solid #273c75;
+	border-radius: 10px;
+	color: #fff;
+
+}
+
+.icons 
