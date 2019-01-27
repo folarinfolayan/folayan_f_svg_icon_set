@@ -4,6 +4,8 @@ body
 	padding: 0;
 	background: #f5f6fa;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	overflow: scroll;
+	
 }
 
 .nav
@@ -11,7 +13,7 @@ body
 	color:#54a0ff;
 	list-style: none;
 	text-align: left;
-	padding: 10 0 10 0px;
+	padding: 10px 0 10px 0;
 }
 
 .nav > li
@@ -106,7 +108,7 @@ ul
 
 .icons a
 {
-	position: fixed;
+	position: absolute;
 	display: block;
 	width: 0px;
 	text-decoration: none;
@@ -115,9 +117,9 @@ ul
 
 .icons li img
 {
-	position: fixed;
+	position: absolute;
 	top: 40%;
-
+	left: 2.5%;
 	background: #2f3640;
 	height: 300px;
 	width: 350px;
@@ -128,10 +130,13 @@ ul
 
 .icons span
 {
+	position: absolute;
 	display: none;
+	top: 28.5%;
+	left: 2.5%;
 }
 
-.icons:hover span
+.icons:hover .sony span
 {
 	background: #273c75;
 	display: block;
@@ -143,4 +148,166 @@ ul
 
 }
 
-.icons 
+.icons1 a
+{
+	position: absolute;
+	display: block;
+	width: 0px;
+	text-decoration: none;
+	
+}
+
+.icons1 li img
+{
+	position: absolute;
+	top: 40%;
+	left: 38.5%;
+	background: #2f3640;
+	height: 300px;
+	width: 350px;
+	border-radius: 30px;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+.icons1 span
+{
+	position: absolute;
+	top: 28.5%;
+	left: 38.5%;
+	display: none;
+}
+
+.icons1:hover span
+{
+	background: #273c75;
+	display: block;
+	width: 320px;
+	padding: 10px 10px;
+	border: 10px solid #273c75;
+	border-radius: 10px;
+	color: #fff;
+}
+
+.icons2 a
+{
+	position: absolute;
+	display: block;
+	width: 0px;
+	text-decoration: none;
+	
+}
+
+.icons2 li img
+{
+	position: absolute;
+	top: 40%;
+	left: 74.5%;
+	background: #2f3640;
+	height: 300px;
+	width: 350px;
+	border-radius: 30px;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+.icons2 span
+{
+	position: absolute;
+	top: 28.5%;
+	left: 74.5%;
+	display: none;
+}
+
+.icons2:hover span
+{
+	background: #273c75;
+	display: block;
+	width: 320px;
+	padding: 10px 10px;
+	border: 10px solid #273c75;
+	border-radius: 10px;
+	color: #fff;
+}
+
+.icons3 a
+{
+	position: absolute;
+	display: block;
+	width: 0px;
+	text-decoration: none;
+	
+}
+
+.icons3 li img
+{
+	position: absolute;
+	top: 99%;
+	left: 20.5%;
+	background: #2f3640;
+	height: 300px;
+	width: 350px;
+	border-radius: 30px;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+.icons3 span
+{
+	position: absolute;
+	top: 87.5%;
+	left: 20.5%;
+	display: none;
+}
+
+.icons3:hover span
+{
+	background: #273c75;
+	display: block;
+	width: 320px;
+	padding: 10px 10px;
+	border: 10px solid #273c75;
+	border-radius: 10px;
+	color: #fff;
+}
+
+.icons4 a
+{
+	position: absolute;
+	display: block;
+	width: 0px;
+	text-decoration: none;
+	
+}
+
+.icons4 li img
+{
+	position: absolute;
+	top: 99%;
+	left: 57.5%;
+	background: #2f3640;
+	height: 300px;
+	width: 350px;
+	border-radius: 30px;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+.icons4 span
+{
+	position: absolute;
+	top: 87.5%;
+	left: 57.5%;
+	display: none;
+}
+
+.icons4:hover span
+{
+	background: #273c75;
+	display: block;
+	width: 320px;
+	padding: 10px 10px;
+	border: 10px solid #273c75;
+	border-radius: 10px;
+	color: #fff;
+}
